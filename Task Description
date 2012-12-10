@@ -1,0 +1,99 @@
+Data Mining Course - Project 4
+
+[ Back to main page ] 
+The Task
+
+In this project, you are required to mine the PAKDD 2012 Data Mining Competition dataset. In detail, your job includes:
+
+1. Read the description of the task and download the data set;
+
+2. Implement an algorithm and output the prediction;
+
+3. Write a report;
+
+4. Submit your work;
+
+5. (optional) If selected, prepare your presentation
+
+Task Decription and Dataset Download
+
+Background:
+
+Maintaining customers and ensuring customers are satisfied with the products offered have always been a major challenge for telcos. Companies often try to reduce the number of customers terminating their services to avoid losing their market share. Before any intervention could be taken by any telco, a careful study of the characteristics of customers who churn must be done. In short, it is crucial for a company to know in advance the customers who have the intention to churn. A churn occurs when a customer terminates a particular service.
+
+Task Decription:
+
+The problem is faced by a large telco and involve two customer segments: Consumer (household users) and SME (Small and Medium Enterprises). In this task, we only consider SME. The SME segment is concerned with voice and broadband services. However, they are treated as two separate products in the following way: voice and broadband as one product, and voice alone as another product by itself.
+
+Tasks to perform: Produce a list of potential churners, i.e., submit the top 5% of existing customers who are most likely to churn.
+
+Dataset: The data set[72594 K] consists of multiple tables(For details, see the database design document in the .zip file). The data sets consist of records of customer profiles (over more than 1 million customers), billing information, usage data, service requests and complaints. The data spans the period from 1 January 2011 to 31 December 2011. Within 2011, there were customers who churned. The goal is to predict which customers (among those in the 2011 data) who will likely churn in the first three months of 2012. It is up to you to divide the 2011 data into training and validation (hold-out) sets for their model development.
+
+The data set is not explicitly labeled. Churn information can be extracted from the data set in the following manner: A customer is uniquely identified using the attribute CUSTOMER_ID. A customer may be associated to several services, i.e. for each CUSTOMER_ID, there may be more than one SERVICE_ID. A customer is treated as having churned if there is a TERMINATION_DATE associated to each of the customer’s SERVICE_ID.
+
+Implementation and Output
+
+Implementation: It is up to you to implemnt any learning algorithm with any programming language. It is encourged that you can make some detail analysis about the difficulty of this task, and this will be good to you to find out appropriate learning algorithm. Problem analysis and innovative thoughts will help you get higher score.
+
+Output: The output of your learning algorithm should be two txt file "output1.txt" and "output2.txt" for the two products(voice and broadband, voice alone), both of them consist of one column: the Customer ID of the top 5% of existing customers who are most likely to churn.
+
+How to Write the Report
+
+Your report should includes:
+
+1. Your understand and analysis of the problem;
+
+2. The motivation of your algorithm and introduction of the background of your algorithm;
+
+3. Full technical details of your algorithm, especially including pseudocode of your algorithm;
+
+4. Description or analysis of the performance you got;
+
+5. Conclusion and (optional) discussion.
+
+NOTES:
+
+1. Please use this MSWord template to write your report in Chinese with English abstract, the file for submission should be named with your student ID, e.g., "MG1233001.docx".
+
+2. Do NOT plagiarize, plagiarism will be seriously penalized: You should be careful on writing your report. Whenever you are using words and works of others, citations should be made clear such that one can tell which part is actually yours. Details about how to identify a plagiarism can be found in " Introduction to the Guidelines for Handling Plagiarism Complaints ".
+
+How to Submit
+
+Your submition should includes:
+
+1. 'output1.txt' and 'output2.txt' file: see the explanation above;
+
+2. 'report.pdf' file: your report;
+
+3. source file of your algorithm
+
+Please carefully check out your submission:
+
+1. Note that the name of the files should not be other names.
+
+2. Pack all your files into a single compressed file (compress in zip, rar, or 7z formats). Name the compressed file using your student ID, e.g., 'MG1233001.rar'. Please delete the .bak, i.e., the backup files from your final .rar files.
+
+Upload your file to FTP: (please use FTP software to upload, do not use Windows Explorer or IE) 
+ftp://lamda.nju.edu.cn/mg_DM_2012/assignment4/ 
+username: mg_dm* 
+password: mg_dm*
+
+Evaluation
+
+We will evaluate your work in terms of:
+
+Your language: concise, precise, and logical.
+
+Your organization: good structure, clearly and properly separated sections and paragraphs.
+
+Citations: all works of non-yourself should have correct references.
+
+Insights: readers will have an idea on why and how data mining is useful in this application after reading your report.
+
+If plagiarism is identified, no scores will be given to this report.
+
+Presentation
+
+After all submissions being collected, about 5 assignments will be selected and presented (by the author) in the class.
+
+Maintained by Chao Qian and Teng Zhang| 2012
