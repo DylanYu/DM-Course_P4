@@ -1,0 +1,16 @@
+1-cross
+VoiceBB:
+Number Of Instances:134947
+J48-per training time used:148s, precision:0.9796739343299171
+NB-per time used:5.258, precision:0.25608721195900513
+J48 time used:161.546
+J48 time used:109.43
+J48 time used:132.478
+J48 time used:170.478
+J48 time used:166.799
+J48 time used:160.212
+
+Voice:
+Number Of Instances:321749
+J48-per training time used:637.686, precision:0.9999067599067599
+NB-per training time used:17.13, precision:0.10327272727272727
